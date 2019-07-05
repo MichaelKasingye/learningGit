@@ -1,0 +1,26 @@
+body{
+	background:grey;
+}
+.header{
+	padding: 10px 16px;
+	background:white;
+	color: blue;
+}
+#menu{
+	padding: 10px 16px;
+}
+#myHeader2{
+	background:white;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: 0.2s;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}

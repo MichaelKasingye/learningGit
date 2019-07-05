@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+	<div>
+		<p> This is the line mow</p>
+		</div>
+	<div class="header" id="myHeader">
+       <h3>The Heading</h3>
+       </div>
+    <ol>
+        <li><a href="mike2.html">mike2</a></li>
+        <li>notes1</li>  
+        <li>notes2</li>
+        <li><a href="k.jpg">notesccc3</a></li>
+    </ol>
+    <div>
+    	<img src = "k.jpg" style="max-width:100%;" height="auto;">
+    </div>
+    <hr>
+<script>
+	
+window.onscroll = function(){
+	myFunction()
+}
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction(){
+	if(window.pageYOffset > sticky){
+		header.classList.add("sticky");
+	}else{
+		header.classList.remove("sticky");
+	}
+}
+
+</script>
+</html>
